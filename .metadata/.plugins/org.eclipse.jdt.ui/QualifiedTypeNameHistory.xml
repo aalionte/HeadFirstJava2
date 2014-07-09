@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ch11.MiniMiniMusicApp"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Sequence"/>
+<fullyQualifiedTypeName name="ch12.SimpleGui"/>
+<fullyQualifiedTypeName name="ch12.SimpleAnimation"/>
+<fullyQualifiedTypeName name="ch12.InnerButton"/>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
+<fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+<fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
+<fullyQualifiedTypeName name="javax.swing.JScrollBar"/>
+<fullyQualifiedTypeName name="javax.swing.ScrollPaneConstants"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="javax.swing.BoxLayout"/>
+<fullyQualifiedTypeName name="java.awt.GridLayout"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="javax.sound.midi.MidiSystem"/>
+<fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Sequencer"/>
+<fullyQualifiedTypeName name="javax.sound.midi.ShortMessage"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ch14.QuizCard"/>
+<fullyQualifiedTypeName name="ch14.QuizCardBuilder"/>
+</qualifiedTypeNameHistroy>

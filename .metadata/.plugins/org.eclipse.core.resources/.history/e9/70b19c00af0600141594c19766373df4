@@ -1,0 +1,34 @@
+package ch15;
+
+public class MyRunnable  implements Runnable{
+
+	public void run() {
+//		try{
+//			Thread.sleep(2000);
+//		}catch(InterruptedException ex){
+//			ex.printStackTrace();
+//		}
+		go();		
+	}
+	
+	public void go(){
+		doMore();		
+	}
+
+	private void doMore() {
+		System.out.println("Top");		
+	}	
+
+}
+
+class ThreadTester{
+	
+	public static void main(String[] args){
+		Runnable threadJob = new MyRunnable();
+		Thread myThread = new Thread(threadJob);
+		
+		myThread.start();
+
+		System.out.println("back to main");
+	}
+}

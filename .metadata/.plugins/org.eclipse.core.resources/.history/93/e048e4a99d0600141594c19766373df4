@@ -1,0 +1,15 @@
+package ch15;
+
+import java.net.*;
+
+public class DailyAdviceClient {
+
+	public void go(){
+		try{
+			Socket s = new Socket("127.0.0.1", 4242);
+			
+		}catch(Exception ex){
+			
+		}
+	}
+}

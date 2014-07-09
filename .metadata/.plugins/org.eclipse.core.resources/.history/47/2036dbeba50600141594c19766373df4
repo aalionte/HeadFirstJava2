@@ -1,0 +1,27 @@
+package chatPkg;
+
+import javax.swing.*;
+import java.io.*;
+import java.net.*;
+
+public class SimpleChatClientA {
+
+	JTextField outgoing;
+	PrintWriter writer;
+	Socket sock;
+	
+	public void go(){
+		//make gui and register a listener with the send button
+		//call the setUpNetworking method
+	}
+	
+	private void setUpNetworking(){
+		try{
+			sock = new Socket("127.0.0.1", 4245);
+			writer =PrintWriter(sock.getInputStream());
+		}catch(IOException ex){
+			ex.printStackTrace();
+		}
+		
+	}
+}

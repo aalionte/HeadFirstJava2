@@ -1,0 +1,12 @@
+package ch14;
+
+public class QuizCard {
+
+	public QuizCard(){
+		
+	}
+	public QuizCard(String text, String text2) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

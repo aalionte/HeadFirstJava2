@@ -1,0 +1,17 @@
+package ch12;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+ class InnerButton {
+	
+	JFrame frame;
+	JButton b;
+	
+	public static void main(String args[]){
+		
+	}
+	
+	
+
+}

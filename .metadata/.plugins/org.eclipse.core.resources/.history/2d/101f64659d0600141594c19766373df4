@@ -1,0 +1,8 @@
+package ch15;
+
+public class DailyAdviceClient {
+
+	public void go(){
+		
+	}
+}

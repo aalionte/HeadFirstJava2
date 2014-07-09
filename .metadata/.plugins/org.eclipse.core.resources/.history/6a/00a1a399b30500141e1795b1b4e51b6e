@@ -1,0 +1,22 @@
+package ch13;
+
+import java.awt.event.*;
+import javax.swing.*;
+
+public class TextArea1 implements ActionListener{
+	
+	JTextArea text;
+	
+	public static void main(String[] args){
+		TextArea1 gui = new TextArea1();
+		gui.go();
+	}
+	
+	public void go(){
+		JFrame frame = new JFrame();
+		JPanel panel = new JPanel();
+		JButton button = new JButton("Click me");
+		
+	}
+
+}

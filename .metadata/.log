@@ -1,0 +1,24 @@
+!SESSION 2014-06-26 17:28:16.911 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista amd64-64 jvmwa6460sr9-20110624_85526 (JIT enabled, AOT enabled)
+J9VM - 20110624_085526
+JIT  - r9_20101028_17488ifx17
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-06-26 17:28:25.840
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-07-09 10:19:49.108 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista amd64-64 jvmwa6460sr9-20110624_85526 (JIT enabled, AOT enabled)
+J9VM - 20110624_085526
+JIT  - r9_20101028_17488ifx17
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-07-09 10:20:35.650
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

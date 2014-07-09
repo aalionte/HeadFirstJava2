@@ -1,0 +1,11 @@
+package ch13;
+
+import javax.swing.JFrame;
+
+public class Button1 {
+
+	public void go(){
+		JFrame frame = new JFrame();
+		JButton button = new JButton("Click me");
+	}
+}

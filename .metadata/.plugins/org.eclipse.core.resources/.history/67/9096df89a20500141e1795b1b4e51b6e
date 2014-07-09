@@ -1,0 +1,8 @@
+package ch12;
+
+ class InnerButton {
+	
+	JFrame frame;
+	
+
+}

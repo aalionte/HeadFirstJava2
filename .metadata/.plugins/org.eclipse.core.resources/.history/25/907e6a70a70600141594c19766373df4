@@ -1,0 +1,47 @@
+package chatPkg;
+
+import javax.swing.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.*;
+import java.net.*;
+
+public class SimpleChatClientA {
+
+	JTextField outgoing;
+	PrintWriter writer;
+	Socket sock;
+	
+	
+	public static void main(String args[]){
+		
+	}
+	public void go(){
+		//make gui and register a listener with the send button
+		//call the setUpNetworking method
+		JFrame frame = new JFrame("Simple Chat Client");
+		JButton sendButton = new JButton("Send");
+		frame.add(outgoing);
+		frame.add(sendButton);
+		frame.setVisible(true);
+		frame.setSize(400, 500);
+		
+	}
+	
+	private void setUpNetworking(){
+		try{
+			sock = new Socket("127.0.0.1", 4245);
+			//writer =new PrintWriter(sock.getInputStream());
+		}catch(IOException ex){
+			ex.printStackTrace();
+		}
+		
+	}
+	
+	public class SendButtonListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			
+		}
+	}
+}

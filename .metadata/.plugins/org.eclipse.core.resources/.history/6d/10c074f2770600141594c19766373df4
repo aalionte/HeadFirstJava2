@@ -1,0 +1,20 @@
+package ch14;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class QuizCardPlayer {
+
+	public void go(){
+		
+	}
+	
+	class NextCardListener implements ActionListener{
+
+		@Override
+		public void actionPerformed(ActionEvent ev) {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+}

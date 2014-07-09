@@ -1,0 +1,10 @@
+package ch15;
+
+public class BankAccountJob implements Runnable{
+
+	private BankAccount account = new BankAccount();
+	
+	public void run(){
+		
+	}
+}

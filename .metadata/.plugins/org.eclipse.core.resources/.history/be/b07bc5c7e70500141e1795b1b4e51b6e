@@ -1,0 +1,18 @@
+package ch14;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class QuizCardBuilder {
+
+	public void go() {
+
+	}
+
+	private class NextCardListener implements ActionListener {
+
+		public void actionPerformed(ActionEvent e) {
+		}
+
+	}
+}

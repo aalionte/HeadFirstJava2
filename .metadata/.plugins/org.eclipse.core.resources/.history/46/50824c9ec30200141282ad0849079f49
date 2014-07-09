@@ -1,0 +1,12 @@
+package ch12;
+
+import javax.sound.midi.*;
+
+public class MiniMusicPlayer {
+	
+	public static void main(String[] args){
+		Sequencer seq = MidiSystem.getSequencer();
+		
+	}
+
+}

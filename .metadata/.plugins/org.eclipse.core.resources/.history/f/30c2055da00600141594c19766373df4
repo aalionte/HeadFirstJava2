@@ -1,0 +1,8 @@
+package ch15;
+
+public class DailyAdviceServer {
+	String[] adviceList = {"Take smaller bites", "Go for the tight jeans.", "One word: inappropriate",
+			"Just for today, be honest."};
+	
+	}
+}

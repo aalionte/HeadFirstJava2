@@ -1,0 +1,12 @@
+package ch15;
+
+public class DailyAdviceClient {
+
+	public void go(){
+		try{
+			
+		}catch(Exception ex){
+			
+		}
+	}
+}

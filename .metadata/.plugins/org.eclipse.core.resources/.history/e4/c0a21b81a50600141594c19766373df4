@@ -1,0 +1,8 @@
+package chatPkg;
+
+public class SimpleChatClientA {
+
+	JField outgoing;
+	PrintWriter writer;
+	Socket sock;
+}

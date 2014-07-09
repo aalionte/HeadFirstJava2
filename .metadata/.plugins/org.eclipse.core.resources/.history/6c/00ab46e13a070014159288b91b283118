@@ -1,0 +1,15 @@
+package ch15;
+
+public class BankAccountJob implements Runnable{
+
+	private BankAccount account = new BankAccount();
+	
+	public void run(){
+		for (int i = 0; i < 10 ; i ++){
+			makeWithdraw1(10);
+			if(account.getBalance() < 0){
+				System.out.println("Overdrawn!");
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+package ch12;
+
+import java.awt.Button;
+
+
+import javax.swing.JFrame;
+
+ class InnerButton {
+	
+	JFrame frame;
+	JButton b;
+	
+	public static void main(String args[]){
+		InnerButton gui = new InnerButton();
+		
+	}
+	
+	
+	public void go(){
+		frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		b = new Button("A");
+		
+	}
+	
+
+}

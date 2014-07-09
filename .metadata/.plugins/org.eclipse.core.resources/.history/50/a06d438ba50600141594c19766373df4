@@ -1,0 +1,12 @@
+package chatPkg;
+
+import javax.swing.*;
+import java.io.*;
+import java.net.*;
+
+public class SimpleChatClientA {
+
+	JTextField outgoing;
+	PrintWriter writer;
+	Socket sock;
+}
